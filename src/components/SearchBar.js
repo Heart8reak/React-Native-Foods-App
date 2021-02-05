@@ -19,7 +19,6 @@ const SearchBar = ({ term, onTermChange, onTermSubmit }) => {
                 onChangeText={onTermChange}
                 onEndEditing={onTermSubmit}
             />
-            
         </View>
     )
 }
@@ -31,7 +30,8 @@ const styles = StyleSheet.create({
         height: 50,
         borderRadius: 5,
         marginHorizontal: 15,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        marginBottom: 10
     }, 
     inpuStyle: {
         flex: 1,
